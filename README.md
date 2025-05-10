@@ -73,10 +73,6 @@ Para rodar todos os testes unitários com Jest:
 
 npm test
 
-Ou em modo interativo:
-
-npm run test\:watch
-
 ---
 
 ## ✅ Rodar Testes E2E com Cypress
@@ -92,20 +88,6 @@ npm run cypress
 ### 3. Ou rodar os testes em modo headless
 
 npm run cypress\:run
-
----
-
-## 📁 Estrutura de Pastas
-
-src/
-├── components/ → Componentes visuais
-├── pages/ → Rotas Next.js
-├── types/ → Interfaces TypeScript
-├── tests/ → Testes unitários
-
-cypress/
-├── e2e/ → Testes end-to-end
-├── support/ → Configurações do Cypress
 
 ---
 
